@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontend_teches",
+  "info": {
+    "singularName": "frontend-tech",
+    "pluralName": "frontend-teches",
+    "displayName": "Frontend tech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tech_name": {
+      "type": "string"
+    },
+    "tech_type": {
+      "type": "enumeration",
+      "enum": [
+        "framework",
+        "style",
+        "state",
+        "api",
+        "other library",
+        "ui library",
+        "animation",
+        "low-code"
+      ]
+    }
+  }
+}

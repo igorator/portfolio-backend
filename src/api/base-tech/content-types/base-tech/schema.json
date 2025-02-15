@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "base_teches",
+  "info": {
+    "singularName": "base-tech",
+    "pluralName": "base-teches",
+    "displayName": "Language",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tech_name": {
+      "type": "string"
+    },
+    "short_tech_name": {
+      "type": "string"
+    }
+  }
+}

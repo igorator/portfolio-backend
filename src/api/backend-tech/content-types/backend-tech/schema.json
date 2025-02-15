@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backend_teches",
+  "info": {
+    "singularName": "backend-tech",
+    "pluralName": "backend-teches",
+    "displayName": "Backend tech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tech_name": {
+      "type": "string"
+    },
+    "tech_type": {
+      "type": "enumeration",
+      "enum": [
+        "runtime",
+        "framework",
+        "database",
+        "orm",
+        "cms",
+        "crm",
+        "other library"
+      ]
+    }
+  }
+}
