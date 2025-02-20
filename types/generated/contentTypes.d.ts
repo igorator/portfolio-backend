@@ -422,9 +422,9 @@ export interface ApiBaseTechBaseTech extends Struct.CollectionTypeSchema {
       'api::base-tech.base-tech'
     > &
       Schema.Attribute.Private;
+    programing_lang_name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    short_tech_name: Schema.Attribute.String;
-    tech_name: Schema.Attribute.String;
+    short_programing_lang_name: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

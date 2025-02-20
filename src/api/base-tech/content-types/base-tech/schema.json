@@ -11,10 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "tech_name": {
+    "programing_lang_name": {
       "type": "string"
     },
-    "short_tech_name": {
+    "short_programing_lang_name": {
       "type": "string"
     }
   }
