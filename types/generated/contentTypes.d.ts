@@ -393,7 +393,16 @@ export interface ApiBackendTechBackendTech extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     tech_name: Schema.Attribute.String;
     tech_type: Schema.Attribute.Enumeration<
-      ['runtime', 'framework', 'database', 'orm', 'cms', 'crm', 'other library']
+      [
+        'api',
+        'runtime',
+        'framework',
+        'database',
+        'orm',
+        'cms',
+        'crm',
+        'other library',
+      ]
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

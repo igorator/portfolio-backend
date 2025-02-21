@@ -17,6 +17,7 @@
     "tech_type": {
       "type": "enumeration",
       "enum": [
+        "api",
         "runtime",
         "framework",
         "database",
